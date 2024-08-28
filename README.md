@@ -2,9 +2,8 @@
 
 Decodificador de Textos
 
-Regras do Decodificador: 
+Chaves de Decodificação:
 
-Chaves de Decodificação
 As "chaves" de criptografia são:
 A letra "e" é convertida para "enter"
 A letra "i" é convertida para "imes"
