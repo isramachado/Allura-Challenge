@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F7FE;
+    color: #0A3871;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.caixa {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.esquerda {
+    flex: 1;
+    padding: 40px;
+    background-color: #E9EDF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto label {
+    font-size: 24px;
+    color: #0A3871;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.texto textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: none;
+}
+
+.info-texto {
+    font-size: 14px;
+    color: #7E7E7E;
+    margin-top: 10px;
+}
+
+
+.botao {
+    display: flex;
+    gap: 20px;
+}
+
+.botao button {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bt-criptografar {
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.bt-descriptografar {
+    background-color: #E9EDF6;
+    color: #0A3871;
+}
+
+
+.direita {
+    flex: 1;
+    padding: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.direita img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.direita p {
+    font-size: 18px;
+    color: #0A3871;
+}
+
